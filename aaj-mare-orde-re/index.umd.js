@@ -116,7 +116,7 @@
 					ctx.fillText(textString , 440 , 1365);
 
 					// Address 1
-					ctx.font = "20px baloo";
+					ctx.font = "25px baloo";
 					ctx.fillStyle = "#000000";
 					var textString = options.formData.get('address'),
 					textWidth = ctx.measureText(textString).width;
